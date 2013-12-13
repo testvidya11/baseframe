@@ -11,6 +11,3 @@ install:
 script: coverage run `which nosetests`
 after_success:
   - coveralls
-notifications:
-  email: false
-  irc: "irc.freenode.net#hasgeek-dev"
